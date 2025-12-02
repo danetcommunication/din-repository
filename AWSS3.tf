@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "public_bucket" {
   }
 
   tags = {
-    Environment = "prod"
+    Environment = "prohd"
   }
 }
 
