@@ -3,7 +3,15 @@
 ############################################
 
 provider "aws" {
-  region     = "us-east-1"
+  region     = "us-east-1 id:313649477
+  First Name	Last Name (Surname)	Date of birth	Email Address
+James	Smith	1/2/1981	JamesSmith@gmail.com
+Christopher	Anderson	2/3/1981	ChristopherAnderson@gmail.com
+Ronald	Clark	3/4/1981	RonaldClark@gmail.com
+Mary	Wright	4/5/1981	MaryWright@gmail.com
+Lisa	Mitchell	5/6/1981	LisaMitchell@gmail.com
+Michelle	Johnson	6/7/1981	MichelleJohnson@gmail.com
+John	Thomas	7/8/1981	JohnThomas@gmail.com"
 
   # ❌ Hard-coded AWS access keys (secret exposure)
   access_key = "AKIA123456789BADSECRET"
@@ -21,7 +29,7 @@ resource "aws_s3_bucket" "public_bucket" {
   }
 
   tags = {
-    Environment = "prod"
+    Environment = "prohd"
   }
 }
 
