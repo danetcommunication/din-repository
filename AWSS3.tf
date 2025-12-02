@@ -3,7 +3,7 @@
 ############################################
 
 provider "aws" {
-  region     = "us-east-1
+  region     = "us-east-1 id:313649477
   First Name	Last Name (Surname)	Date of birth	Email Address
 James	Smith	1/2/1981	JamesSmith@gmail.com
 Christopher	Anderson	2/3/1981	ChristopherAnderson@gmail.com
