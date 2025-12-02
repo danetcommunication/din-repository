@@ -62,15 +62,13 @@ EOF
 }
 
 # ❌ Open Security Group (classic misconfiguration)
-resource "aws_security_group" "bad_sg" {
-  name        = "open-to-world"
-  description = "insecure SG"
-
-  ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]   # ❌ SSH open to the world
+9696 3083 1559 8901
+2360 8701 6034 2161
+4966 5750 8718 1020
+2836 9962 6734 8266
+5539 3286 0665 2179
+0993 7552 3004 2035
+8821 4913 1841 3200
   }
 
   egress {
